@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Frame5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,800;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-parent">
+      <div class="frame-child23"></div>
+      <div class="frame-child24"></div>
+      <div class="frame-child25"></div>
+      <div class="home" id="hOMEText">HOME</div>
+      <div class="frame-child26"></div>
+      <div class="coffee2" id="cOFFEEText">COFFEE</div>
+      <div class="frame-child27"></div>
+      <div class="ice-cream1" id="iCECREAMText">ICE CREAM</div>
+      <div class="combos1" id="cOMBOSText">COMBOS</div>
+      <div class="frame-child28"></div>
+      <div class="frame-child29"></div>
+      <i class="the-coldest-ice"
+        >“The Coldest Ice Cream in Town , Everything is Cool with Ice Cream ”</i
+      >
+      <img
+        class="frame-child30"
+        alt=""
+        src="./public/rectangle-82@2x.png"
+        id="rectangleImage"
+      />
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./frame.html";
+        });
+      }
+      
+      var cOFFEEText = document.getElementById("cOFFEEText");
+      if (cOFFEEText) {
+        cOFFEEText.addEventListener("click", function (e) {
+          window.location.href = "./Frame2.html";
+        });
+      }
+      
+      var iCECREAMText = document.getElementById("iCECREAMText");
+      if (iCECREAMText) {
+        iCECREAMText.addEventListener("click", function (e) {
+          window.location.href = "./Frame3.html";
+        });
+      }
+      
+      var cOMBOSText = document.getElementById("cOMBOSText");
+      if (cOMBOSText) {
+        cOMBOSText.addEventListener("click", function (e) {
+          window.location.href = "./Frame4.html";
+        });
+      }
+      
+      var rectangleImage = document.getElementById("rectangleImage");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function () {
+          window.open("https://maps.app.goo.gl/bKMhY1CEZVj4SEg6A");
+        });
+      }
+      </script>
+  </body>
+</html>

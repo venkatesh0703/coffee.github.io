@@ -1,0 +1,119 @@
+body{
+  background: black;
+}
+
+.frame-child23,
+.frame-child24,
+.frame-child25 {
+  position: absolute;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame-child23 {
+  top: 122px;
+  left: 242px;
+  border-radius: var(--br-8xs);
+  width: 1024px;
+  height: 37px;
+}
+.frame-child24,
+.frame-child25 {
+  top: 126px;
+  left: 917px;
+  width: 112px;
+  height: 29px;
+}
+.frame-child25 {
+  left: 446px;
+}
+.home {
+  position: absolute;
+  top: 131px;
+  left: 471px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.frame-child26 {
+  position: absolute;
+  top: 126px;
+  left: 603px;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 112px;
+  height: 29px;
+}
+.coffee2 {
+  position: absolute;
+  top: 131px;
+  left: 616px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.frame-child27 {
+  position: absolute;
+  top: 126px;
+  left: 760px;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 112px;
+  height: 29px;
+}
+.combos1,
+.ice-cream1 {
+  position: absolute;
+  top: 131px;
+  left: 781px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.combos1 {
+  left: 950px;
+}
+.frame-child28 {
+  position: absolute;
+  top: 799px;
+  left: 242px;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1024px;
+  height: 35px;
+}
+.frame-child29 {
+  position: absolute;
+  top: 804px;
+  left: 512px;
+  background-color: var(--color-gray-300);
+  width: 511px;
+  height: 25px;
+}
+.the-coldest-ice {
+  position: absolute;
+  top: 806px;
+  left: 450px;
+  font-size: var(--font-size-xl);
+}
+.frame-child30 {
+  position: absolute;
+  top: 600px;
+  left: 901px;
+  width: 369px;
+  height: 207px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-parent {
+  position: absolute;
+  width: 85%;
+  height: 958px;
+  top: -11px;
+  left: 200px;
+  background-image: url(./public/frame-5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

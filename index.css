@@ -1,0 +1,396 @@
+
+body{
+  background: black;
+}
+.frame,
+.frame-child {
+  position: absolute;
+  width: 1018px;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  height: 37px;
+}
+.frame {
+  top: 139px;
+  left: 211px;
+  height: 680px;
+  overflow: hidden;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 112px;
+  height: 29px;
+}
+.frame1,
+.frame2 {
+  top: 143px;
+  width: 112px;
+  height: 676px;
+  overflow: hidden;
+}
+.frame1 {
+  position: absolute;
+  left: 886px;
+}
+.frame2 {
+  left: 415px;
+}
+.coffee,
+.frame2,
+.frame3 {
+  position: absolute;
+}
+.coffee {
+  top: 0;
+  left: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.frame3 {
+  top: 148px;
+  left: 440px;
+  width: 62px;
+  height: 671px;
+  overflow: hidden;
+}
+.frame4,
+.frame5,
+.frame6,
+.frame7,
+.frame8 {
+  position: absolute;
+  top: 143px;
+  left: 572px;
+  width: 112px;
+  height: 676px;
+  overflow: hidden;
+}
+.frame5,
+.frame6,
+.frame7,
+.frame8 {
+  top: 148px;
+  left: 585px;
+  width: 87px;
+  height: 671px;
+}
+.frame6,
+.frame7,
+.frame8 {
+  top: 143px;
+  left: 729px;
+  width: 112px;
+  height: 676px;
+}
+.frame7,
+.frame8 {
+  top: 148px;
+  left: 750px;
+  width: 71px;
+  height: 671px;
+}
+.frame8 {
+  left: 919px;
+  width: 56px;
+}
+.frame9,
+.rectangle-icon {
+  position: absolute;
+  width: 129px;
+}
+.rectangle-icon {
+  top: 0;
+  left: 0;
+  height: 199px;
+  object-fit: cover;
+}
+.frame9 {
+  top: 181px;
+  left: 227px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child2,
+.frame10 {
+  position: absolute;
+  width: 198px;
+}
+.frame-child2 {
+  top: 0;
+  left: 0;
+  height: 254px;
+  object-fit: cover;
+}
+.frame10 {
+  top: 181px;
+  left: 1031px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 129px;
+  height: 246px;
+  object-fit: cover;
+}
+.frame11 {
+  top: 181px;
+  left: 897px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child4,
+.frame11,
+.frame12 {
+  position: absolute;
+  width: 129px;
+}
+.frame-child4 {
+  top: 0;
+  left: 0;
+  height: 237px;
+  object-fit: cover;
+}
+.frame12 {
+  top: 181px;
+  left: 763px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child5 {
+  top: 0;
+  left: 0;
+  height: 227px;
+  object-fit: cover;
+}
+.frame-child5,
+.frame-child6,
+.frame13 {
+  position: absolute;
+  width: 129px;
+}
+.frame13 {
+  top: 181px;
+  left: 629px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child6 {
+  top: 0;
+  left: 0;
+  height: 215px;
+  object-fit: cover;
+}
+.frame14 {
+  top: 181px;
+  left: 495px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child7,
+.frame14,
+.frame15 {
+  position: absolute;
+  width: 129px;
+}
+.frame-child7 {
+  top: 0;
+  left: 0;
+  height: 209px;
+  object-fit: cover;
+}
+.frame15 {
+  top: 181px;
+  left: 361px;
+  height: 638px;
+  overflow: hidden;
+}
+.frame-child8,
+.frame-child9 {
+  position: absolute;
+  top: 581px;
+  left: 236px;
+  width: 129px;
+  height: 238px;
+  object-fit: cover;
+}
+.frame-child9 {
+  top: 623px;
+  left: 1040px;
+  width: 189px;
+  height: 196px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12,
+.frame-child13 {
+  position: absolute;
+  top: 628px;
+  left: 906px;
+  width: 129px;
+  height: 191px;
+  object-fit: cover;
+}
+.frame-child11,
+.frame-child12,
+.frame-child13 {
+  top: 619px;
+  left: 772px;
+  height: 200px;
+}
+.frame-child12,
+.frame-child13 {
+  top: 609px;
+  left: 638px;
+  height: 210px;
+}
+.frame-child13 {
+  top: 597px;
+  left: 504px;
+  height: 222px;
+}
+.frame-child14 {
+  top: 591px;
+  left: 370px;
+  height: 228px;
+  object-fit: cover;
+}
+.frame-child14,
+.frame-child15,
+.frame16 {
+  position: absolute;
+  width: 129px;
+}
+.frame-child15 {
+  top: 0;
+  left: 0;
+  height: 191px;
+  object-fit: cover;
+}
+.frame16 {
+  top: 385px;
+  left: 236px;
+  height: 434px;
+  overflow: hidden;
+}
+.frame-child16,
+.frame17 {
+  position: absolute;
+  width: 167px;
+}
+.frame-child16 {
+  top: 0;
+  left: 0;
+  height: 214px;
+  object-fit: cover;
+}
+.frame17 {
+  top: 437px;
+  left: 1062px;
+  height: 382px;
+  overflow: hidden;
+}
+.frame-child17,
+.frame18 {
+  position: absolute;
+  width: 156px;
+}
+.frame-child17 {
+  top: 0;
+  left: 0;
+  height: 191px;
+  object-fit: cover;
+}
+.frame18 {
+  top: 432px;
+  left: 906px;
+  height: 387px;
+  overflow: hidden;
+}
+.frame19,
+.frame20,
+.frame21,
+.frame22 {
+  position: absolute;
+  top: 423px;
+  left: 772px;
+  width: 129px;
+  height: 396px;
+  overflow: hidden;
+}
+.frame20,
+.frame21,
+.frame22 {
+  top: 413px;
+  left: 638px;
+  height: 406px;
+}
+.frame21,
+.frame22 {
+  top: 401px;
+  left: 504px;
+  height: 418px;
+}
+.frame22 {
+  top: 395px;
+  left: 370px;
+  height: 424px;
+}
+.frame-child22,
+.frame23 {
+  position: absolute;
+  width: 477px;
+}
+.frame-child22 {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 47px;
+}
+.frame23 {
+  top: 176px;
+  left: 457px;
+  height: 643px;
+  overflow: hidden;
+}
+.coffee1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+}
+.frame24 {
+  position: absolute;
+  top: 188px;
+  left: 637px;
+  width: 121px;
+  height: 631px;
+  overflow: hidden;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.61);
+}
+.frame-parent {
+  position: absolute;
+  width: 85%;
+  height: 957.8px;
+  top: -11px;
+  left: 200px;
+  background-image: url(./public/frame-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
